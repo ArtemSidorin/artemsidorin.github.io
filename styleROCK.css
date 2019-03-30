@@ -1,0 +1,116 @@
+﻿body {
+    background:#fff8dc;
+	  border: 5px solid green;
+    border-radius: 5px;
+    font-size: 16px; line-height: 1.3;
+  }
+  .afish {
+    text-align: center;
+    margin: 0;
+  }
+  .over {
+    padding: 0px 200px;
+  }
+  .cool1 {
+    transform: rotate(-35deg);
+  }
+  .cool2 {
+    transform: rotate(35deg);
+  }
+  .nav {
+    padding-left: 20px; }
+  .nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+    padding: 10px;
+    font-family: monospace;
+  }
+  .nav a:hover {
+    color: red;
+  }
+  form {
+    padding-left: 20px; }
+  .buttonform:focus {
+    background: lightyellow;
+  }
+  .welcome {
+    background: #000000;
+    color: red;
+    padding: 10px;
+  }
+	strong { font-size: 150%; }
+ .block1 { 
+    width: 100%; 
+    background: #f4a460;
+    padding: 20px 10px 20px 10px;
+    border: solid 5px black;
+    border-left: none;
+    border-right: none;
+	  margin-bottom: 5px;
+    box-sizing: border-box;
+    text-indent: 30px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  }
+	h3 {
+	  text-shadow: 0 2px 5px rgba(0,0,0,0.5); 
+	  font-size: 30px; }
+  h3.text-center {
+    text-align: center;
+    }
+ .block2 { 
+    width: 100%; 
+    background: #f4a460;
+    padding: 20px 10px; 
+    border: solid 5px black;
+    border-left: none;
+    border-right: none;
+	  margin-bottom: 5px;
+    box-sizing: border-box;
+    text-indent: 30px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+   }
+   .grayscale {
+    filter: grayscale(1);
+    transition: 1s;
+    margin-left: 17px;
+   }
+   .grayscale:hover {
+    filter: grayscale(0);
+   }
+   .up {
+    width: 50px;
+    height: 50px;
+    background: red;
+    border-radius: 5px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+   }
+  .up a {
+   text-decoration: none;
+   color: #fff;
+   font-size: 30px;
+   display: block;
+   text-align: center;
+   }
+   footer {
+    height: 200px;
+    background: black;
+   }
+   ul {
+    list-style: none;
+    overflow: hidden;
+   }
+   li {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+   }
+   li a {
+    text-decoration: none;
+    color: white;
+   }
+   li a:hover {
+    color: red;
+  }
